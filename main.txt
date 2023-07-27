@@ -1,0 +1,40 @@
+crear un documento html
+tendra un header. un main, y un footer
+
+dentro del main habran 4 secciones
+una sera un tipo 'form' con un input tipo text que sera el input de nuestra barra de busqueda
+otra sera un submit(botón) para ejecutar dicha busqueda
+
+debajo de la barra de busqueda tendremos tres imagenes en fila
+cada una de las imagenes servira como representante de las correspondietes categorias de imagenes dentro de nuestro array
+cada una de estas tres imagenes sera una div que crearemos dinamicamente para poder referenciarlas al array de objetos correspondientes
+cada una de estas tres imagenes desencadenara su exclusivo evento que pintara por debajo las imagenes del tipo de categoria que represente
+
+debajo de las tres imagenes/categorias habra un select para poder filtrar las imagenes por su orientacion/posicion, asi como demostrarlas todas
+cada uno de estos selectores sera un evento exclusivo que filtre el tipo de imagen segun lo seleccionado y pintara debajo dichas imagenes
+este select, asi como las 3 opciones de filtrado seran estaticos en el html
+
+debajo del select habra un ultimo div creado dinamicamente que sera mi grid container donde pintare las imagenes que correspondan al tipo de categoria de imagenes elegidas, el filtro seleccionado, asi como los resultados de una busqueda hecha en el search
+
+en el footer colocare el "prominent link to pexels"
+
+encontrar la manera de fetch la data
+funcion
+
+'helper functions'
+
+getPhotos
+
+utilizar console.log
+
+pintar cajas categorias 
+pintar una caja y ejecutarla 3 veces
+funcion pintar cajas
+append
+
+array de todas las imagenes
+funcion que haga bucle a traves de ese array filtrando las correspondientes imagenes
+append cada imagen
+
+
+
